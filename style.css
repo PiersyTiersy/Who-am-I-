@@ -1,0 +1,55 @@
+html {
+    font-size: 150%;
+    background-color: rgba(173, 196, 196, 0.591);
+    text-align: center;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(34, 141, 135);
+}
+
+h2, h3 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(71, 67, 137);
+}
+
+.top, .mid, .bottom {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(250, 235, 215, 0.292);
+}
+
+.image {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+.button {
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 81, 255, 0.226);
+    padding: 0.5rem 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+  .button:hover, .button:active {
+    color: rgba(231, 231, 231, 0.747);
+    background-color: rgba(0, 81, 255, 0.349);
+  }
+
+
+@media (max-width: 621px) {    
+    .image {
+        width: 50%;
+        height: 50%;
+    }
+}
